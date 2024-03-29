@@ -5,9 +5,11 @@ Introduction \
 Our analysis aims to explore and analyze datasets containing mushroom attributes to predict whether a mushroom is edible or poisonous. Understanding the characteristics that distinguish edible mushrooms from poisonous ones is crucial for various stakeholders, including mushroom hunters, consumers, and health professionals.
 \
 Project Mushroom \
+
+
 Dataset \
 We begin our analysis by examining a dataset containing attributes of different mushrooms, including features like cap shape, cap surface, cap color, odor, gill attachment, gill spacing, gill size, gill color, stalk shape, stalk root, stalk surface above ring, stalk surface below ring, stalk color above ring, stalk color below ring, veil color, ring number, ring type, spore print color, population, and habitat. The target variable is the class of mushroom, which can be either edible or poisonous. The dataset has been cleaned and preprocessed, including handling missing values by imputing mode values and encoding categorical variables.
-
+![download](https://github.com/Sayali26s/CS-6830-Project-7-/assets/149123607/1345d9cd-7797-4a3f-b96c-b18805b4cde7)
  \
 Mushrooms displaying numerous and abundant population and purple or green cap color mushrooms are edible, though the data points are few. Mushrooms with purple, orange, yellow, and buff spore print colors are edible, except for green spore print mushrooms, which are typically poisonous. Odor serves as a significant indicator of mushroom class, except for mushrooms with no smell. Mushrooms with no rings are generally poisonous, and those with two rings are mostly edible. 
 
@@ -29,7 +31,7 @@ We applied SVM with polynomial kernel (degree=2) to the dataset. The precision, 
 
 \
 We utilized Support Vector Machines to visualize decision boundaries for a mushroom dataset. We encoded categorical features, such as odor and spore print color, and trained an SVM model with a polynomial kernel of degree 2. The resulting decision boundary effectively separates the mushroom classes (edible and poisonous) based on these two features.
-
+![download](https://github.com/Sayali26s/CS-6830-Project-7-/assets/149123607/a92f2cf7-3e45-491f-a0a8-f250da0fb477)
 
 
 
