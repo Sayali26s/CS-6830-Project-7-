@@ -1,6 +1,6 @@
 # CS-6830-Project-7-
 Logistic Regression & Support Vector Machines
-Code | Presentation						           By- Sayali Sali 
+Code | Presentation						           By- Sayali Sali \
 Introduction
 Our analysis aims to explore and analyze datasets containing mushroom attributes to predict whether a mushroom is edible or poisonous. Understanding the characteristics that distinguish edible mushrooms from poisonous ones is crucial for various stakeholders, including mushroom hunters, consumers, and health professionals.
 
