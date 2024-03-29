@@ -13,11 +13,11 @@ Mushrooms displaying numerous and abundant population and purple or green cap co
 
 \
 Analysis Techniques and Results: \
-We explored logistic regression and Support Vector Machines (SVMs) as potential techniques for predicting mushroom edibility. Both techniques are well-suited for binary classification tasks and are commonly used in predictive modeling applications.\
+We explored logistic regression and Support Vector Machines (SVMs) as potential techniques for predicting mushroom edibility. Both techniques are well-suited for binary classification tasks and are commonly used in predictive modeling applications.
 
 \
 Analysis 1: Logistic Regression \
-We encode categorical features: ring type, spore print color, population, stalk color above ring, odor, and cap-color using one-hot encoding and applied logistic regression to predict mushroom classes. The precision, recall, and F-score for edible mushrooms were 0.991, 1.0 and 0.995, respectively, while for poisonous mushrooms, they were 1.0 ,0.989 and 0.994 respectively. These results indicate high predictive accuracy for both classes.\
+We encode categorical features: ring type, spore print color, population, stalk color above ring, odor, and cap-color using one-hot encoding and applied logistic regression to predict mushroom classes. The precision, recall, and F-score for edible mushrooms were 0.991, 1.0 and 0.995, respectively, while for poisonous mushrooms, they were 1.0 ,0.989 and 0.994 respectively. These results indicate high predictive accuracy for both classes.
 
 \
 Analysis 2: SVM Linear \
@@ -25,7 +25,7 @@ We employed a linear SVM classifier to classify mushrooms based on their attribu
 
 \
 Analysis 3: SVM Polynomial \
-We applied SVM with polynomial kernel (degree=2) to the dataset. The precision, recall, and F-score for edible mushrooms were 0.996, 1.0, and 0.998, respectively, and for poisonous, they were 1.0, 0.996, and 0.998, respectively. The polynomial SVM demonstrated superior performance compared to linear SVM and logistic regression. The RBF SVM achieved comparable results to the polynomial SVM.\
+We applied SVM with polynomial kernel (degree=2) to the dataset. The precision, recall, and F-score for edible mushrooms were 0.996, 1.0, and 0.998, respectively, and for poisonous, they were 1.0, 0.996, and 0.998, respectively. The polynomial SVM demonstrated superior performance compared to linear SVM and logistic regression. The RBF SVM achieved comparable results to the polynomial SVM.
 
 \
 We utilized Support Vector Machines to visualize decision boundaries for a mushroom dataset. We encoded categorical features, such as odor and spore print color, and trained an SVM model with a polynomial kernel of degree 2. The resulting decision boundary effectively separates the mushroom classes (edible and poisonous) based on these two features.
